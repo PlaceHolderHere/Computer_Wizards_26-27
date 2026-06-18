@@ -1,16 +1,23 @@
 import React from "react";
 import './Navbar.css';
 
-export const Navbar: React.FC = () => {
+interface nav_links{
+    home: string;
+    about: string;
+    activities: string;
+    objectives: string;
+}
+
+export const Navbar: React.FC<nav_links> = ({home, about, activities, objectives}) => {
     return (
         <nav className="navbar">
-            <a>About Us</a>
-            <a>Activities</a>
-            <a>Objectives</a>
-            <div className="navbar-home">
+            <a href={about}>About Us</a>
+            <a href={activities}>Activities</a>
+            <a href={objectives}>Objectives</a>
+            <a href={home} className="navbar-home">
                 <img className="navbar-logo" src="/comwiz-svg.svg" alt="Computer Wizards Logo"/>
                 <h4>Computer Wizards</h4>
-            </div>
+            </a>
         </nav>
     )
 }

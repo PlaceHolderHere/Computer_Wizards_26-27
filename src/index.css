@@ -45,11 +45,17 @@ p, a{
     font-size: 1.5rem;
     font-family: "Funnel Display", Helvetica, sans-serif;
     font-weight: normal;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 a:hover{
     text-decoration: underline;
     cursor:pointer;
+}
+
+a:visited{
+    text-decoration: none;
 }
 
 /* Grid */
