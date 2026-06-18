@@ -58,27 +58,7 @@ a:visited{
     text-decoration: none;
 }
 
-/* Grid */
 .app{
     display: grid;
     background-color: var(--bg-color);
-}
-
-/* Sections */
-.home{
-    width: 100%;
-    min-height: 100dvh;
-    background-image: linear-gradient(var(--secondary-color), var(--primary-color));
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 16px;
-    padding: 32px;
-} 
-
-.home-logo{
-    width: 30vw;
-    aspect-ratio: 1 / 1;
 }

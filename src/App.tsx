@@ -1,14 +1,11 @@
-import { Button } from "./Components/Button"
+import Home from "./Sections/Home"
+import Objectives from "./Sections/Objectives"
 import { Navbar } from "./Components/Navbar"
 
 function App() {
   return (
     <div className="app">
-        <section id="home" className="home">
-            <img className="home-logo" src="/comwiz-svg.svg" alt="Computer Wizards Logo"/>
-            <h1 className="home-title">Computer Wizards</h1>
-            <Button text="Learn more->"/>
-        </section>
+        <Home></Home>
 
         <Navbar 
             home="#home" 
@@ -16,9 +13,7 @@ function App() {
             objectives="#objectives" 
             activities="#activities">
         </Navbar>
-        <section id="objectives" className="objectives">
-            <h2>Hello</h2>
-        </section>
+        <Objectives></Objectives>
     </div>
   )
 }
