@@ -1,6 +1,7 @@
 // Sections
 import Home from "./Sections/Home"
 import Objectives from "./Sections/Objectives"
+import Activities from "./Sections/Activities"
 
 // Components
 import Navbar from "./Components/Navbar"
@@ -17,6 +18,7 @@ function App() {
             activities="#activities">
         </Navbar>
         <Objectives></Objectives>
+        <Activities></Activities>
     </div>
   )
 }
