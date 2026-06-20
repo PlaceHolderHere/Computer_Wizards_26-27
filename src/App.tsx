@@ -5,6 +5,7 @@ import Activities from "./Sections/Activities"
 
 // Components
 import Navbar from "./Components/Navbar"
+import Footer from "./Components/Footer"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Home></Home>
         <Objectives></Objectives>
         <Activities></Activities>
+        <Footer></Footer>
     </div>
   )
 }

@@ -1,0 +1,43 @@
+footer{
+    width: 100%;
+    color: #FFFFFF;
+    background-color: var(--primary-dark);
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    padding: 64px;
+}
+
+/* Contacts */
+.contacts{
+    display: grid;
+    justify-content: right;
+    width: 50%;
+    margin-left: auto;
+}
+
+.links{
+    padding-left: 8px;
+}
+
+.contact_link{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 4px
+}
+
+/* Footer Brand */
+.footer-brand{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-logo{
+    aspect-ratio: 1 / 1;
+    width: 30%;   
+}
