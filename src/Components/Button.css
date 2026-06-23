@@ -1,7 +1,13 @@
 .button{
-    padding: 16px 32px;
     border-radius: 25px;
     background-color: var(--accent-color);
+    padding: 16px 32px;
+}
+
+@media screen and (max-width: 500px) {
+    .button{
+        padding: 8px 16px;
+    }
 }
 
 .button:hover{
