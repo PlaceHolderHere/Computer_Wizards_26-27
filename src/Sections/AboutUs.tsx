@@ -1,4 +1,5 @@
 import './AboutUs.css'
+import aboutPhoto from '../assets/about-us-1.jpg'
 
 function AboutUs(){
     return(
@@ -8,8 +9,8 @@ function AboutUs(){
                 <div className='imageSection'>
                     <img 
                         className="about-photo" 
-                        src="src/assets/about-us-1.jpg" 
-                        alt="About Us 1"
+                        src={aboutPhoto}
+                        alt="About Us"
                     />
                 </div>
                 <div className='about-description'>

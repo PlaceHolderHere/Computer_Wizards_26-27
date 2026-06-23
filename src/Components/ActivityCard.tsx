@@ -5,15 +5,15 @@ interface ActivityCardProps {
     date?: string;
     venue?: string;
     description: string;
-    imageUrl: string;
+    image: string;
 }
 
-function ActivityCard({title, date, venue, description, imageUrl}: ActivityCardProps) {
+function ActivityCard({title, date, venue, description, image}: ActivityCardProps) {
     return (
         <div className='activityCard'>
             <img 
                 className="activityImage" 
-                src={imageUrl} 
+                src={image} 
                 alt={title}>
             </img>
             <div className='text'>

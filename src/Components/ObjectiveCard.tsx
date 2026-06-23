@@ -3,15 +3,15 @@ import "./ObjectiveCard.css";
 interface objectiveProps{
     title: string;
     description: string;
-    imageURL: string;
+    image: string;
 }
 
-function ObjectiveCard({title, description, imageURL} : objectiveProps){
+function ObjectiveCard({title, description, image} : objectiveProps){
     return(
         <div className="objectiveCard">
             <img 
                 className="objectiveImg"
-                src={imageURL}
+                src={image}
                 alt={title}>
             </img>
             <div className="objectiveText">

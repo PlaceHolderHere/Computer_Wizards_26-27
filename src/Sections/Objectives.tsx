@@ -1,6 +1,11 @@
 import ObjectiveCard from "../Components/ObjectiveCard";
 import './Objectives.css'
 
+// Photos
+import skillsPhoto from '../assets/skills.jpg';
+import collaborationPhoto from '../assets/collaboration.jpg';
+import funPhoto from '../assets/fun.jpg';
+
 function Objectives(){
     return(
         <section id="objectives" className="objectives">
@@ -9,19 +14,19 @@ function Objectives(){
                 <ObjectiveCard
                     title="Skills Development"
                     description="We help students develop their programming skills and fundamentals through hands-on activities and workshops."
-                    imageURL="src\assets\skills.jpg">
+                    image={skillsPhoto}>
                 </ObjectiveCard>
 
                 <ObjectiveCard
                     title="Promote Collraboration"
                     description="We want our club to be an inclusive and friendly environment, where members can have fun and collaborate with each other."
-                    imageURL="src\assets\collaboration.jpg">
+                    image={collaborationPhoto}>
                 </ObjectiveCard>
 
                 <ObjectiveCard
                     title="Have Fun"
                     description="We want to help our members have fun with coding and spark their curiosity about the modern tech world!"
-                    imageURL="src\assets\fun.jpg">
+                    image={funPhoto}>
                 </ObjectiveCard>
             </div>
         </section>
