@@ -13,7 +13,6 @@ footer{
 .contacts{
     display: grid;
     justify-content: right;
-    width: 50%;
     margin-left: auto;
 }
 
@@ -25,19 +24,32 @@ footer{
     display: flex;
     align-items: center;
     justify-content: left;
-    gap: 4px
+    gap: 4px;
+    margin-top: 4px;
 }
 
 /* Footer Brand */
 .footer-brand{
-    width: 50%;
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 16px;
+    padding: 0 16px;
 }
 
 .footer-logo{
     aspect-ratio: 1 / 1;
     width: 30%;   
+}
+
+/* For Smaller Devices */
+@media screen and (max-width: 800px) {
+    footer{
+        flex-direction: column;
+    }
+    .contacts{
+        margin-right: auto;
+        margin-left: 0;
+        padding: 16px;
+    }
 }
