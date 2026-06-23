@@ -16,8 +16,8 @@ function ActivityCard({title, date, venue, description, image}: ActivityCardProp
                 src={image} 
                 alt={title}>
             </img>
-            <div className='text'>
-                <h3>{title}</h3>
+            <div className='activityDescription'>
+                <h3 className='activityTitle'>{title}</h3>
                 <div className='smallInfo'>
                     <div className="date">
                         <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

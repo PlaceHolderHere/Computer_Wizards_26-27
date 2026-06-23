@@ -5,5 +5,5 @@
     flex-direction: column;
 
     margin: 64px 0;
-    padding: 0 180px;
+    padding: 0 clamp(64px, calc(2vw + 64px), 180px);
 }

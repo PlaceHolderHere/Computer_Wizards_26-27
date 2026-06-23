@@ -16,7 +16,7 @@
 }
 
 /* Right Column */
-.text{
+.activityDescription{
     width: 100%;
 }
 
@@ -43,4 +43,21 @@
     object-fit: cover;
     width: clamp(200px, 80%, 800px);
     border-radius: 32px;
+}
+
+/* Smaller Screens */
+@media screen and (max-width: 1100px) {
+    .activityCard{
+        grid-template-columns: 1fr;
+    }
+
+    .activityImage{
+        width: clamp(200px, 50%, 800px);
+    }
+
+    .activityTitle{text-align: center;}
+    .smallInfo{
+        align-content: center;
+        justify-content: center;
+    }
 }
