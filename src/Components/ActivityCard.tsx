@@ -33,7 +33,7 @@ function ActivityCard({title, date, venue, description, imageUrl}: ActivityCardP
                         <p className='small'>{venue ? venue : "TBA"}</p>
                     </div>
                 </div>
-                <p className='description'>{description}</p>
+                <p className='activity-description'>{description}</p>
             </div>
         </div>
     )

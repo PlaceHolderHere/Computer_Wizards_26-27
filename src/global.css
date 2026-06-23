@@ -21,7 +21,7 @@
 
 /* Headers/Text */
 h1{
-    font-size: clamp(1.5rem, calc(5vw + 0.5rem), 6rem);
+    font-size: clamp(1.5rem, calc(5vw + 1.5rem), 6rem);
     /* font-size: 2rem; */
     font-family: "Syncopate", Helvetica, sans-serif;
     font-weight: 700;
@@ -30,7 +30,7 @@ h1{
 }
 
 h2{
-    font-size: 5rem;
+    font-size: clamp(1rem, calc(5vw + 1rem),5rem);
     font-family: "Funnel Display", Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -38,7 +38,7 @@ h2{
 }
 
 h3{
-    font-size: 3rem;
+    font-size: clamp(0.75rem, calc(2vw + 0.75rem), 3rem);
     font-family: "Funnel Display", Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;

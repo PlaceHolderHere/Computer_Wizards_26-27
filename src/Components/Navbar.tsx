@@ -46,8 +46,8 @@ function Navbar ({home, about, activities, objectives, isAnimated} : nav_links) 
 
     return (
         <nav className="navbar" id="navbar">
-            <a href={about}>About Us</a>
             <a href={activities}>Activities</a>
+            <a href={about}>About Us</a>
             <a href={objectives}>Objectives</a>
             <a href={home} className="navbar-home">
                 <img className="navbar-logo" src="/comwiz-svg.svg" alt="Computer Wizards Logo"/>
