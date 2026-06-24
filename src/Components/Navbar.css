@@ -7,13 +7,20 @@
     align-items: center;
     gap: 32px;
     padding: 8px 64px;
-    flex-direction: row-reverse;
     position: fixed;
     top: 0;
+    z-index: 9;
 }
 
 a{
     color: #FFFFFF;
+}
+
+.linksContainer{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 8px;
 }
 
 .navbar-home{
@@ -43,4 +50,62 @@ a{
   transform: translateY(0);
   transition: all 0.3s ease-in-out;
   pointer-events: auto;
+}
+
+/* SideBar Toggle */
+#toggleSidebar{
+    display: none;
+}
+
+.openSidebar, .closeSidebar{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .linksContainer{
+        height: 100dvh;
+        width: clamp(200px, 20%, 300px);
+        background-color: var(--primary-color);
+
+        position: fixed;
+        top: 0; 
+        right: -100%;
+        transition: 0.75s ease-in-out;
+
+        flex-direction: column;
+        align-items: start;
+
+        z-index: 10;
+        padding: 32px 16px;
+    }
+
+    .openSidebar, .closeSidebar{
+        display: block;
+    }
+
+    .openSidebar:hover, .closeSidebar:hover{
+        cursor: pointer;
+    }
+
+    #toggleSidebar:checked ~ .linksContainer{
+        right: 0;
+        transition: 0.75s ease-in-out;
+    }
+
+    #overlay{
+        opacity: 100%;
+        transition: 0.75s ease-in-out;
+    }
+
+    #toggleSidebar:checked ~ #overlay{
+        height: 100dvh;
+        width: 100vw;
+        position: absolute;
+        z-index: 8;
+        top: 0;
+        left: 0;
+        background-color: black;
+        opacity: 60%;
+        transition: 0.75s ease-in-out;
+    }
 }

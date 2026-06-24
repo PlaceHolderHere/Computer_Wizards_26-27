@@ -1,4 +1,6 @@
 import './Navbar.css';
+import MenuSVG from '../svgLogos/menu';
+import CloseSVG from '../svgLogos/close';
 import { useEffect } from 'react';
 
 interface nav_links{
@@ -46,13 +48,36 @@ function Navbar ({home, about, activities, objectives, isAnimated} : nav_links) 
 
     return (
         <nav className="navbar" id="navbar">
-            <a href={activities}>Activities</a>
-            <a href={about}>About Us</a>
-            <a href={objectives}>Objectives</a>
+            {/* Home Link */}
             <a href={home} className="navbar-home">
                 <img className="navbar-logo" src="/comwiz-svg.svg" alt="Computer Wizards Logo"/>
                 <h4>Computer Wizards</h4>
-            </a>
+            </a>    
+            
+            {/* SideBar Toggle for Mobile */}
+            <input type="checkbox" id="toggleSidebar"/>
+            <label id="overlay" htmlFor='toggleSidebar'></label>
+            <label htmlFor="toggleSidebar" className='openSidebar'>
+                <MenuSVG
+                    width={32}
+                    height={32}>
+                </MenuSVG>
+            </label>
+
+            {/* Href Links */}
+            <div className='linksContainer'>
+                <label htmlFor='toggleSidebar' className='closeSidebar'>
+                    <CloseSVG 
+                        width={32} 
+                        height={32}>
+                    </CloseSVG>
+                </label>
+
+                <a href={objectives}>Objectives</a>
+                <a href={about}>About Us</a>
+                <a href={activities}>Activities</a>
+            </div>
+            
         </nav>
     )
 }
