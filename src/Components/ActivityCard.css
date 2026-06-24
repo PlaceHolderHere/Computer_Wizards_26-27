@@ -11,7 +11,7 @@
     background-color: var(--bg-color-light-1);
     
     border-radius: 32px;
-    padding: 32px clamp(8px, calc(5vw), 64px);
+    padding: 64px clamp(8px, calc(5vw), 64px);
     margin: 16px 0;
 }
 
