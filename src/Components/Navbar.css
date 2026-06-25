@@ -20,7 +20,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: right;
-    gap: 8px;
+    gap: 16px;
 }
 
 .navbar-home{
