@@ -17,6 +17,8 @@
     --bg-color-light-2: #FFFFFF; 
     --accent-color: #FFC044;
     --text-color: #000000;
+    --shadow-sm: inset 0 1px 2px #ffffff30, 0 1px 2px #00000030, 0 2px 4px #00000015;
+    --shadow-l: inset 0 1px 2px #ffffff70, 0 4px 6px #00000030, 0 6px 10px #00000015;
 }
 
 /* Headers/Text */
