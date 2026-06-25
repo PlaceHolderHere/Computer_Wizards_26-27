@@ -11,7 +11,7 @@ function Home(){
                 id="nav-trigger"
             />
             <h1 className="home-title">Computer Wizards</h1>
-            <Button text="Learn more->"/>
+            <Button text="Learn more->" hrefLink="#about"/>
         </section>
     )
 }

@@ -1,14 +1,17 @@
 import './Button.css';
 
 interface ButtonProps {
-    text: string
+    text: string;
+    hrefLink?: string;
 }
 
-function Button ({ text }: ButtonProps) {
+function Button ({ text, hrefLink }: ButtonProps) {
     return (
-        <button className="button">
-            <p>{text}</p>
-        </button>
+        <a href={hrefLink}>
+            <button className="button">
+                <p>{text}</p>
+            </button>
+        </a>
     )
 }
 
