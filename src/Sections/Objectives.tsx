@@ -18,7 +18,7 @@ function Objectives(){
                 </ObjectiveCard>
 
                 <ObjectiveCard
-                    title="Promote Collraboration"
+                    title="Promote Collaboration"
                     description="We want our club to be an inclusive and friendly environment, where members can have fun and collaborate with each other."
                     image={collaborationPhoto}>
                 </ObjectiveCard>
