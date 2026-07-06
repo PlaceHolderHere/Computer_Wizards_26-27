@@ -1,5 +1,5 @@
 .objectiveCard{
-    background-color: var(--bg-color-light-2);
+    background-color: var(--bg-dark-3);
     border-radius: 32px;
     box-shadow: var(--shadow-sm);
 }

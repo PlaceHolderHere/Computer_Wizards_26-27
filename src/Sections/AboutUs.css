@@ -6,7 +6,7 @@
     box-shadow: var(--shadow-l); */
     width: 100%;
     justify-self: center;
-    background-color: var(--bg-color-light-1);
+    background-color: var(-bg-dark-2);
     padding: 32px clamp(8px, calc(5vw + 8px), 128px) 64px;
     margin: 64px;
 }

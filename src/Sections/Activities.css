@@ -1,7 +1,7 @@
 .activities{
     width: 90vw;
     justify-self: center;
-    background-color: var(--bg-color-light-1);
+    background-color: var(-bg-dark-2);
     border-radius: 32px;
     box-shadow: var(--shadow-l);
 
