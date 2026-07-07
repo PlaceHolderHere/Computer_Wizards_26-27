@@ -1,6 +1,6 @@
 .home{
     min-height: 100dvh;
-    background-image: linear-gradient(var(--primary-dark), var(--primary-color));
+    background-image: linear-gradient(var(--primary-color), var(--primary-dark));
     color: #FFFFFF;
     display: flex;
     align-items: center;
