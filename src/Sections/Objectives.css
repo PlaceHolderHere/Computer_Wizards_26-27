@@ -1,23 +1,19 @@
 .objectives{
-    width: 90vw;
-    background-color: var(--bg-dark-2);
+    background-color: var(--primary-dark);
     justify-self: center;
+    padding: var(--section-padding);
+}
+
+/* Title */
+.objectivesHeading{
     margin: 32px 0;
-    border-radius: 32px;
-    box-shadow: var(--shadow-l);
+    color: white;
 }
 
 .objectiveCards{
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-
     gap: 32px;
-    padding: 32px clamp(8px, calc(5vw + 8px), 128px);
-}
-
-/* Title */
-.objectivesHeading{
-    margin-top: 32px;
 }
 
 @media screen and (max-width: 900px) {
