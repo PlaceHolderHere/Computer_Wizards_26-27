@@ -9,6 +9,7 @@
 
 /* Variables */
 :root{
+    /* Colors */
     --primary-color: #5315D1;
     --primary-dark: #5013C9;
     --bg-dark-1: #F2F2F2;
@@ -19,54 +20,48 @@
     --text-dark-1: #080808;
     --text-dark-1: #0D0D0D;
     --text-dark-1: #1A1A1A;
+
+    /* Box Shadows */
     --shadow-sm: inset 0 1px 2px #ffffff30, 0 1px 2px #00000030, 0 2px 4px #00000015;
     --shadow-m: inset 0 1px 2px #ffffff50, 0 2px 4px #00000030, 0 4px 8px #00000015;
     --shadow-l: inset 0 1px 2px #ffffff70, 0 4px 6px #00000030, 0 6px 10px #00000015;
+    
+    /* Text */
+    --standard-font: "Funnel Display", Helvetica, sans-serif;;
+    --h1: normal 700 clamp(1.5rem, calc(5vw + 0.75rem), 5rem) "Syncopate", Helvetica, sans-serif;
+    --h2: normal 500 clamp(1rem, calc(5vw + 1rem), 4rem) var(--standard-font);
+    --h3: normal 500 clamp(0.75rem, calc(2vw + 0.75rem), 2.5rem) var(--standard-font);
+    --h4: normal 500 clamp(0.5rem, calc(2vw + 0.5rem), 2rem) var(--standard-font);
+    --body: normal normal clamp(0.25rem, calc(2vw + 0.25rem), 1.75rem) var(--standard-font);
+    --small: normal normal 100 clamp(0.15rem, calc(2vw + 0.15rem), 1.5rem) 1rem var(--standard-font);
+
+    /* Spacing */
     --section-padding: 64px clamp(16px, calc(8vw + 8px), 176px);
 }
 
 /* Headers/Text */
 h1{
-    font-size: clamp(1.5rem, calc(5vw + 0.75rem), 6rem);
-    font-family: "Syncopate", Helvetica, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
+    font: var(--h1);
 }
 
 h2{
-    font-size: clamp(1rem, calc(5vw + 1rem),5rem);
-    font-family: "Funnel Display", Helvetica, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
+    font: var(--h2);
 }
 
 h3{
-    font-size: clamp(0.75rem, calc(2vw + 0.75rem), 3rem);
-    font-family: "Funnel Display", Helvetica, sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    font: var(--h3);
 }
 
 h4{
-    font-size: clamp(0.5rem, calc(2vw + 0.5rem), 2rem);
-    font-family: "Funnel Display", Helvetica, sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    font: var(--h4);
 }
 
 p, a{
-    font-size: clamp(0.25rem, calc(2vw + 0.25rem), 1.5rem);
-    font-family: "Funnel Display", Helvetica, sans-serif;
-    font-weight: normal;
-    text-decoration: none;
+    font: var(--body);
 }
 
 .small{
-    font-size: 1rem;
-    font-weight: 100;
-    text-align: left;
+    font: var(--small);
 }
 
 a:hover{
