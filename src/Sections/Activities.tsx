@@ -9,7 +9,7 @@ import commengPhoto from "../assets/commeng.jpg";
 function Activities(){
     return(
         <section className="activities" id='activities'>
-            <h2>Activities</h2>
+            <h2 className="activities-title">Activities</h2>
             <ActivityCard
                 title="Workshops"
                 description="Led by experienced professionals, these workshops provide the opportunity for students to learn from professional experience and gain knowledge about the industry. Hands-on and real time projects allow students to further develop their technical skills and gain experience exposure to the tech industry under the guidance of professionals."

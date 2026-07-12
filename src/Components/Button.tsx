@@ -9,7 +9,7 @@ function Button ({ text, hrefLink }: ButtonProps) {
     return (
         <a href={hrefLink}>
             <button className="button">
-                <p>{text}</p>
+                {text}
             </button>
         </a>
     )

@@ -3,6 +3,7 @@
     background-color: var(--accent-color);
     padding: 16px 32px;
     color: var(--text-dark-1);
+    font: var(--button-txt);
 }
 
 @media screen and (max-width: 500px) {

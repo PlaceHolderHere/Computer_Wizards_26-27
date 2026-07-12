@@ -13,6 +13,14 @@
     box-shadow: var(--shadow-l);
 }
 
+.navbar-title{
+    font: var(--h4);
+}
+
+.nav-link{
+    font: var(--anchor-txt);
+}
+
 a{
     color: #FFFFFF;
 }

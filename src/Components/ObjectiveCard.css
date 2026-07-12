@@ -16,5 +16,10 @@
 }
 
 .objectiveTitle{
+    font: var(--h4);
     margin: 8px 0;
+}
+
+.objective-description{
+    font: var(--body);
 }

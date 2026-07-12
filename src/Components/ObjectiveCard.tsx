@@ -16,7 +16,7 @@ function ObjectiveCard({title, description, image} : objectiveProps){
             </img>
             <div className="objectiveText">
                 <h4 className="objectiveTitle">{title}</h4>
-                <p className="small">{description}</p>
+                <p className="objective-description">{description}</p>
             </div>
         </div>
     )

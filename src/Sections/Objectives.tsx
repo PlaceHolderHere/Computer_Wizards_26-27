@@ -9,7 +9,7 @@ import funPhoto from '../assets/fun.jpg';
 function Objectives(){
     return(
         <section id="objectives" className="objectives">
-            <h2 className="objectivesHeading">Club Objectives</h2>
+            <h2 className="objectives-title">Club Objectives</h2>
             <div className="objectiveCards">
                 <ObjectiveCard
                     title="Skills Development"

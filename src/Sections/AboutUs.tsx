@@ -15,7 +15,7 @@ function AboutUs(){
                 </div>
                 <div className='about-description'>
                     <h3 className='about-sub-title'>The Official Computer Club of AdDU-SHS</h3>
-                    <p>Here at the Computer Wizards Club, we strive to help curious students develop their programming skills and fundamentals through hands-on club meetings, activities, and workshops.</p>
+                    <p className="about-body">Here at the Computer Wizards Club, we strive to help curious students develop their programming skills and fundamentals through hands-on club meetings, activities, and workshops.</p>
                 </div>
             </div>
         </section>

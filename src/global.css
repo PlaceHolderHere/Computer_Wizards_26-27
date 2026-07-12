@@ -32,36 +32,17 @@
     --h2: normal 500 clamp(1rem, calc(5vw + 1rem), 4rem) var(--standard-font);
     --h3: normal 500 clamp(0.75rem, calc(2vw + 0.75rem), 2.5rem) var(--standard-font);
     --h4: normal 500 clamp(0.5rem, calc(2vw + 0.5rem), 2rem) var(--standard-font);
-    --body: normal normal clamp(0.25rem, calc(2vw + 0.25rem), 1.75rem) var(--standard-font);
-    --small: normal normal 100 clamp(0.15rem, calc(2vw + 0.15rem), 1.5rem) 1rem var(--standard-font);
+    --body: normal normal clamp(0.25rem, calc(2vw + 0.25rem), 1.25rem) var(--standard-font);
+    --small: normal normal 100 clamp(0.15rem, calc(2vw + 0.15rem), 1rem) var(--standard-font);
+    --button-txt: normal 500 clamp(0.25rem, calc(2vw + 0.25rem), 1.75rem) var(--standard-font);
+    --anchor-txt: normal normal 500 clamp(0.15rem, calc(2vw + 0.15rem), 1.25rem) var(--standard-font);
 
     /* Spacing */
     --section-padding: 64px clamp(16px, calc(8vw + 8px), 176px);
 }
 
-/* Headers/Text */
-h1{
-    font: var(--h1);
-}
-
-h2{
-    font: var(--h2);
-}
-
-h3{
-    font: var(--h3);
-}
-
-h4{
-    font: var(--h4);
-}
-
-p, a{
-    font: var(--body);
-}
-
-.small{
-    font: var(--small);
+a{
+    text-decoration: none;
 }
 
 a:hover{
@@ -73,7 +54,7 @@ a:visited{
     text-decoration: none;
 }
 
-.app{
+/* .app{
     display: grid;
     background-color: var(--bg-dark-1);
-}
+} */

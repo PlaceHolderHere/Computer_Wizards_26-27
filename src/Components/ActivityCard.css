@@ -7,7 +7,7 @@
     align-content: center;
     justify-content: center;
     
-    color: black;
+    color: var(--text-dark-1);
     background-color: var(--bg-dark-3);
     border-radius: 32px;
     box-shadow: var(--shadow-sm);
@@ -16,8 +16,14 @@
     margin: 16px 0;
 }
 
+/* Title */
+.activityTitle{
+    font: var(--h3);
+}
+
 /* Right Column */
 .activity-description{
+    font: var(--body);
     margin-top: 16px;
 }
 
@@ -26,6 +32,11 @@
     display: flex;
     gap: 32px;
     margin: 8px;
+}
+
+/* Date and Venue */
+.date-label, .venue-label{
+    font: var(--small);
 }
 
 .date, .location{

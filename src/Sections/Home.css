@@ -1,14 +1,19 @@
 .home{
     min-height: 100dvh;
     background-image: linear-gradient(var(--primary-color), var(--primary-dark));
-    color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 32px clamp(8px, calc(5vw + 8px), 128px);
     gap: 8px;
+    color: var(--bg-dark-3);
+    text-align: center;
 } 
+
+.home-title{
+    font: var(--h1);
+}
 
 .home-logo{
     width: 30vw;

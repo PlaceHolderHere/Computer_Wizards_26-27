@@ -5,9 +5,11 @@
 }
 
 /* Title */
-.objectivesHeading{
+.objectives-title{
     margin: 32px 0;
-    color: white;
+    text-align: center;
+    font: var(--h2);
+    color: var(--bg-dark-3);
 }
 
 .objectiveCards{

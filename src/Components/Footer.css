@@ -9,6 +9,11 @@ footer{
     padding: 64px clamp(8px, calc(5vw + 8px), 128px);
 }
 
+/* Titles */
+.footer-title{
+    font: var(--h3);
+}
+
 /* Contacts */
 .contacts{
     display: grid;
@@ -21,6 +26,7 @@ footer{
 }
 
 .contact_link{
+    font: var(--anchor-txt);
     display: flex;
     align-items: center;
     justify-content: left;
