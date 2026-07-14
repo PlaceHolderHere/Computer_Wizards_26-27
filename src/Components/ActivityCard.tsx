@@ -11,11 +11,13 @@ interface ActivityCardProps {
 function ActivityCard({title, date, venue, description, image}: ActivityCardProps) {
     return (
         <div className='activityCard'>
-            <img 
-                className="activityImage" 
-                src={image} 
-                alt={title}>
-            </img>
+            <div className='image-column'>
+                <img 
+                    className="activityImage" 
+                    src={image} 
+                    alt={title}>
+                </img>
+            </div>
             <div className='activityDescription'>
                 <h3 className='activityTitle'>{title}</h3>
                 <div className='smallInfo'>

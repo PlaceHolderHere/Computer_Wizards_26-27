@@ -46,10 +46,14 @@
 }
 
 /* Left Column */
+.image-column{
+    padding: 0 clamp(8px, 5vw, 32px);
+}
+
 .activityImage{
     aspect-ratio: 1/1;
     object-fit: cover;
-    width: clamp(200px, 80%, 800px);
+    width: 100%;
     border-radius: 32px;
 }
 
@@ -61,7 +65,9 @@
     }
 
     .activityImage{
-        width: clamp(200px, 50%, 800px);
+        aspect-ratio: 16/9;
+        width: 100%;
+        border-radius: 16px;
     }
 
     .activityTitle{

@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     gap: 32px;
-    padding: 8px 64px;
+    padding: 8px clamp(8px, 5vw, 64px);
     position: fixed;
     top: 0;
     z-index: 9;
