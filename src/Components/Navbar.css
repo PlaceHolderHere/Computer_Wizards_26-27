@@ -15,14 +15,38 @@
 
 .navbar-title{
     font: var(--h4);
+    color: var(--bg-dark-1);
 }
 
 .nav-link{
     font: var(--anchor-txt);
+    color: var(--bg-dark-1);
+    position: relative;
 }
 
-a{
-    color: #FFFFFF;
+.nav-link::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--bg-dark-1);
+    
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover, .navbar-title:hover{
+    color: var(--bg-dark-3);    
+    transition: 0.25s ease-in-out;
+}
+
+.nav-link:hover::after{
+    transform: scaleX(1);
+    background-color: var(--bg-dark-3);
+    transform-origin: bottom left;
 }
 
 .linksContainer{
@@ -90,10 +114,12 @@ a{
 
     .openSidebar, .closeSidebar{
         display: block;
+        color: var(--bg-dark-1);
     }
 
     .openSidebar:hover, .closeSidebar:hover{
         cursor: pointer;
+        color: var(--bg-dark-3);
     }
 
     #toggleSidebar:checked ~ .linksContainer{
