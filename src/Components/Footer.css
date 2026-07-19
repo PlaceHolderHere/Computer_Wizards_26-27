@@ -1,6 +1,5 @@
 footer{
     width: 100%;
-    color: #FFFFFF;
     background-color: var(--primary-color);
     font-weight: 500;
 
@@ -12,6 +11,7 @@ footer{
 /* Titles */
 .footer-title{
     font: var(--h3);
+    color: var(--bg-dark-3);
 }
 
 /* Contacts */
@@ -26,6 +26,7 @@ footer{
 }
 
 .contact_link{
+    color: var(--bg-dark-3);
     font: var(--anchor-txt);
     display: flex;
     align-items: center;
