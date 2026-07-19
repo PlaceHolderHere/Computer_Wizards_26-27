@@ -2,6 +2,13 @@
     background-color: var(--bg-dark-2);
     border-radius: 32px;
     box-shadow: var(--shadow-m);
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.objectiveCard:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
 }
 
 .objectiveImg{
