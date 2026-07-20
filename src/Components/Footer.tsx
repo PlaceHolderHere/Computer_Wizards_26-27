@@ -8,7 +8,7 @@ function Footer(){
         <footer>
             <a href="#home" className="footer-brand">
                 <img className="footer-logo" src="/comwiz-svg.svg" alt="Computer Wizards Logo"/>
-                <h3 className='footer-title'>Computer Wizards</h3>
+                <h3 className='footer-title link_underline'>Computer Wizards</h3>
             </a>
             
             <div className='contacts'>
@@ -22,7 +22,7 @@ function Footer(){
                             logoWidth={32}
                             logoHeight={32}>
                         </FacebookLogo>
-                        <p className="link-title">Addu SHS-Computer Wizards Club</p>
+                        <p className="link-title link_underline">Addu SHS-Computer Wizards Club</p>
                     </a>
 
                     <a 
@@ -33,7 +33,7 @@ function Footer(){
                             logoWidth={32}
                             logoHeight={32}>
                         </InstaLogo>
-                        <p className="link-title">comwiz.addushs</p>
+                        <p className="link-title link_underline">comwiz.addushs</p>
                     </a>
 
                     <a 
@@ -44,7 +44,7 @@ function Footer(){
                             logoWidth={32}
                             logoHeight={32}>
                         </EmailLogo>
-                        <p className="link-title">shs.computerwizards@addu.edu.ph</p>
+                        <p className="link-title link_underline">shs.computerwizards@addu.edu.ph</p>
                     </a>
                 </div>
             </div>

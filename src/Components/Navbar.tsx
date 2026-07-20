@@ -51,7 +51,7 @@ function Navbar ({home, about, activities, objectives, isAnimated} : nav_links) 
             {/* Home Link */}
             <a href={home} className="navbar-home">
                 <img className="navbar-logo" src="/comwiz-svg.svg" alt="Computer Wizards Logo"/>
-                <h4 className='navbar-title'>Computer Wizards</h4>
+                <h4 className='navbar-title link_underline'>Computer Wizards</h4>
             </a>    
             
             {/* SideBar Toggle for Mobile */}
@@ -73,9 +73,9 @@ function Navbar ({home, about, activities, objectives, isAnimated} : nav_links) 
                     </CloseSVG>
                 </label>
 
-                <a className='nav-link' href={objectives}>Objectives</a>
-                <a className='nav-link' href={about}>About Us</a>
-                <a className='nav-link' href={activities}>Activities</a>
+                <a className='nav-link link_underline' href={objectives}>Objectives</a>
+                <a className='nav-link link_underline' href={about}>About Us</a>
+                <a className='nav-link link_underline' href={activities}>Activities</a>
             </div>
             
         </nav>
