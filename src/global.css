@@ -18,8 +18,8 @@
     --accent-color: #FFBE3E;
     --accent-dark: #F3A916;
     --text-dark-1: #080808;
-    --text-dark-1: #0D0D0D;
-    --text-dark-1: #1A1A1A;
+    --text-dark-2: #0D0D0D;
+    --text-dark-3: #1A1A1A;
 
     /* Box Shadows */
     --shadow-sm: inset 0 1px 2px #ffffff30, 0 1px 2px #00000030, 0 2px 4px #00000015;
